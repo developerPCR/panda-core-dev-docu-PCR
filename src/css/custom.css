@@ -28,3 +28,13 @@
   --ifm-color-primary-lightest: #4fddbf;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
+
+.main-wrapper,
+.hero {
+  background-color: black !important;
+  color: white;
+}
+
+.buttons_src-pages-index-module {
+  gap: 10px;
+}

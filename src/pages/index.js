@@ -8,7 +8,7 @@ import HomepageFeatures from '@site/src/components/HomepageFeatures';
 import styles from './index.module.css';
 
 function HomepageHeader() {
-  const {siteConfig} = useDocusaurusContext();
+  const { siteConfig } = useDocusaurusContext();
   return (
     <header className={clsx('hero hero--primary', styles.heroBanner)}>
       <div className="container">
@@ -18,16 +18,35 @@ function HomepageHeader() {
           <Link
             className="button button--secondary button--lg"
             to="/docs/intro">
-            Panda Tutorial - 5min ⏱️
+            Panda Intro - 5min ⏱️
+          </Link>
+
+          <Link
+            className="button button--secondary button--lg"
+            to="/docs/category/tutorial---plus">
+            Panda Plus - 10min ⏱️
+          </Link>
+
+          <Link
+            className="button button--secondary button--lg"
+            to="/docs/category/tutorial---firebase">
+            Panda Firebase- 20min ⏱️
+          </Link>
+
+          <Link
+            className="button button--secondary button--lg"
+            to="/docs/category/tutorial---stripe">
+            Panda Stripe - 30min ⏱️
           </Link>
         </div>
+        <img src="/hero.png" />
       </div>
     </header>
   );
 }
 
 export default function Home() {
-  const {siteConfig} = useDocusaurusContext();
+  const { siteConfig } = useDocusaurusContext();
   return (
     <Layout
       title={`Hello from ${siteConfig.title}`}
