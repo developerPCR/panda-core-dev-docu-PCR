@@ -60,7 +60,7 @@ const config = {
         title: 'My Site',
         logo: {
           alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          src: 'img/logo.webp',
         },
         items: [
           {
@@ -70,8 +70,8 @@ const config = {
             label: 'Tutorial',
           },
           {
-            href: 'https://github.com/facebook/docusaurus',
-            label: 'GitHub',
+            href: 'https://blue-panda.dev',
+            label: 'Blue Panda',
             position: 'right',
           },
         ],

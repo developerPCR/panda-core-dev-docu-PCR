@@ -2,24 +2,27 @@
 sidebar_position: 1
 ---
 
-# Tutorial Intro
+# Tutorial - Getting started
 
 Let's discover **Blue Panda Plus less than 5 minutes**.
 
+This documentation is valid for all designs available.
+
 ## Getting Started
-
-Get started by **Cloning**.
-
-Or **try Panda Plus Demo** with **[panda.dev.plus](https://docusaurus.new)**.
+Buy a license on **[blue-panda.dev](https://blue-panda.dev)**.
 
 ## Clone Panda Plus
 
-You'll need clone **[Panda Plus](https://github.com/avastjs/panda-core-dev/tree/panda-plus)**.
+Depending on the package, you either will have a zip file with the code base, or a sit on github project, where you can just fork and work 
+in your changes, which is best option is you want to have updates often.
 
-Lets install dependencies
+
+### Quick code setup: 
 
 ```bash
+cd blue-panda/
 npm install
+npm run dev
 ```
 
 You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
@@ -28,11 +31,11 @@ The command also installs all necessary dependencies you need to run Panda Plus.
 
 ## Start your site
 
-Run the development server:
-
-```bash
-npm run dev
-# or
-yarn dev
-```
 Open **[http://localhost:3000](http://localhost:3000)** with your browser to see the result
+
+Depending on the package, you will see a homepage of blue panda smart template.
+
+Example:
+
+![alt text](/ss/ex.png)
+
