@@ -145,16 +145,6 @@ export default function NavBar() {
 </p>
 
 
-## DropdownAnonymous 
-
-```tsx
-  <DropdownAnonymous 
-  image={<YourIcon />}
-  />
-```
-
-
-
 ## LoadingModal 
 
 ```tsx
