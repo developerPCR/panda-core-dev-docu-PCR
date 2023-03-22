@@ -6,7 +6,7 @@
 
 /* You can override the default Infima variables here. */
 :root {
-  --ifm-color-primary: #2e8555;
+  --ifm-color-primary: #21222c;
   --ifm-color-primary-dark: #29784c;
   --ifm-color-primary-darker: #277148;
   --ifm-color-primary-darkest: #205d3b;
@@ -29,12 +29,98 @@
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
 
-.main-wrapper,
-.hero {
-  background-color: black !important;
+.hero{
+  background-color: #21222c;
   color: white;
+}
+.hero.title {
+  font-size: 5rem;
 }
 
 .buttons_src-pages-index-module {
   gap: 10px;
+}
+
+.navbar {
+  background-color: #21222c;
+  border-bottom: 1px solid #3a3a3a;
+}
+
+main{
+  background-color: #262833 !important;
+}
+
+.homeCard {
+  align-items: center;
+  background: #262833;
+  border-radius: var(--theme-card-border-radius);
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  padding: 2rem;
+  width: 350px;
+}
+
+.homeCard-title {
+  color: white
+}
+
+.content-homeCard {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+  list-style-type: none;
+  margin: 0 0 2rem;
+  padding: 0;
+  text-align: left;
+  width: 100%;
+}
+
+.listItem {
+  color: #b1b5d3;
+  font-size: var(--font-size-normal);
+}
+
+.listItem::before {
+  color: #1b72f5;
+  content: "➤";
+  margin-right: 0.5rem;
+}
+
+.link {
+  color: #fff;
+  font-size: var(--font-size-normal);
+  font-weight: 500;
+  margin-top: auto;
+  text-decoration: none;
+  text-transform: uppercase;
+  opacity: .85;
+  color: white;
+  text-decoration: none;
+  transition-duration: .3s;
+}
+
+.link:hover {
+  text-decoration: none;
+  color: white;
+  opacity: 1;
+}
+
+.navbar__link {
+  color: white
+}
+
+.navbar__link:hover {
+  color: #1b72f5
+}
+main{
+  background-color: #1b72f5;
+  color: white;
 }
