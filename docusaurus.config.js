@@ -6,8 +6,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Panda',
-  tagline: 'Dinosaurs are cool',
+  title: 'Use Develop Ship',
+  tagline: 'Put yourself weeks ahead with our Panda templates, save months of work.',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -53,14 +53,19 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
-      image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'My Site',
         logo: {
           alt: 'My Site Logo',
           src: 'img/logo.webp',
         },
         items: [
+          {
+            image: 'img/docusaurus-social-card.jpg',
+            type: 'doc',
+            docId: 'intro',
+            position: 'left',
+            label: 'Blue Panda',
+          },
           {
             type: 'doc',
             docId: 'intro',
@@ -118,6 +123,10 @@ const config = {
       prism: {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
+      },
+      colorMode: {
+        defaultMode: 'dark',
+        disableSwitch: true,
       },
     }),
 };
