@@ -80,4 +80,4 @@ BluePanda.dev is not liable for costs, damages, or other losses arising from you
 
 
 Questions
-Unsure which license is right for you or if your use case is covered by our licenses? Email us at hello@divjoy.com and we'll help you out.
+Unsure which license is right for you or if your use case is covered by our licenses? Email us at hello@blue-panda.dev and we'll help you out.
