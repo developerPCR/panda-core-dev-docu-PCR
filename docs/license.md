@@ -4,7 +4,7 @@ Standard License
 BluePanda.dev grants you an on-going, non-exclusive license to use the Code. The license grants permission toone individual (the Licensee) to access and use the Code.
 
 
-Youcan:
+You can:
 
 Use the Code to create unlimited End Products.
 Modify the Code to create derivative Code. That Code is subject to this license.
@@ -18,13 +18,13 @@ Use the Code to create End Products that are designed to allow an End User to bu
 Re-distribute the Code or derivatives of the Code separately from an End Product.
 Share your access to the Code with any other individuals.
 Example usage
-Examples ofallowed usage include:
+Examples of allowed usage include:
 
 Creating a website for your business where you are the only one accessing and using the Code.
 Creating a website for a client that will be owned by that client.
 Creating a commercial application where End Users have to pay to use the application.
 Creating a free and open source web application where the primary purpose is not to re-distribute the components.
-Examples ofnot allowed usage include:
+Examples of not allowed usage include:
 
 Creating a website for your business where multiple people will be accessing and using the Code.
 Creating a website builder where End Users can create their own websites using Code included with or derived from BluePanda.dev.
@@ -34,29 +34,30 @@ Creating a repository of Code from BluePanda.dev (or derivatives of that Code) a
 Team License
 Differences from the Standard License have been highlighted.
 
-BluePanda.dev grants you an on-going, non-exclusive license to use the Code.The license grants permission toall Employees and Contractors of the Licensee to access and use the Code.
+BluePanda.dev grants you an on-going, non-exclusive license to use the Code. The license grants permission toall Employees and Contractors of the Licensee to access and use the Code.
 
 
-Youcan:
+You can:
 
 Use the Code to create unlimited End Products.
 Modify the Code to create derivative Code. That Code is subject to this license.
 Use the Code to code to create unlimited End Product for unlimited clients.
 Use the Code to create End Products where the End Product is sold to End Users.
 Use the Code to create End Products that are open source and freely available to End Users.
-Youcannot:
+
+You cannot:
 
 Re-distribute the Code or derivatives of the Code separately from an End Product.
 Use the Code to create End Products that are designed to allow an End User to build their own End Products using the Code or derivatives of the Code.
 Use the Components to create End Products that are the property of any individual or entity other than the Licensee or Clients of the Licensee.
 Example usage
-Examples ofallowed usage include:
+Examples of allowed usage include:
 
 Creating a website for your company
 Creating a website for a client that will be owned by that client.
 Creating a commercial application where End Users have to pay to use the application.
 Creating a free and open source web application where the primary purpose is not to re-distribute the components.
-Examples ofnot allowed usage include:
+Examples of not allowed usage include:
 
 Creating a website builder where End Users can create their own websites using Code included with or derived from BluePanda.dev.
 Creating a theme, template, or project starter kit using the Code and making it available either for sale or for free.
