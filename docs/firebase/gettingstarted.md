@@ -53,7 +53,7 @@ on `fireBaseConfig` variable to modify `.env.local` variables.
 2. We recommend you to start on production mode to avoid migrating afterwards, but you could also do it in test mode. 
 
 :::info
-We will setup the rules later.
+We will setup the rules later (these are security permissions to firebase documents).
 :::
 
 <img src={'/instructions/firebase/13.png'} style={{width: '480px'}} />
@@ -85,26 +85,30 @@ set up the rules here in order to get access from the website and enforce securi
 <img src={'/instructions/firebase/17.png'} style={{width: '520px'}} />
 
 Rules:
-```
-rules_version = '2';
-service cloud.firestore {
-  match /databases/{database}/documents {
-     match /fe-users/{uid} {
-      allow read, write: if request.auth.uid == uid;
-     }
-     
-     match /fe-hideouts/{uid} {
-      allow read, write: if true;
-     }
-     
-     match /fe-public-profiles/{uid} {
-      allow read: if true;
-      allow write: if request.auth.uid == uid;
-     }
-  }
-}
 
-```
+<details>
+  <summary>Panda Firebase Rules</summary>
+  <code>
+    {`
+  rules_version = '2';
+  service cloud.firestore {
+    match /databases/{database}/documents {
+       match /fe-users/{uid} {
+        allow read, write: if request.auth.uid == uid;
+       }
+       
+       match /fe-hideouts/{uid} {
+        allow read, write: if true;
+       }
+       
+       match /fe-public-profiles/{uid} {
+        allow read: if true;
+        allow write: if request.auth.uid == uid;
+       }
+     }
+   }`}
+  </code>
+</details>
 
 ### Firebase authetication 
 
