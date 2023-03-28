@@ -2,7 +2,7 @@
 sidebar_position: 2
 ---
 
-# Configs 
+# Getting started 
 
 Panda Plus has some configurations that are used for several features, such as colors, i18n and others.
 
@@ -119,3 +119,25 @@ File containing analytics config: `.env.local`
 NEXT_PUBLIC_STATSIG_CLIENT_SDK_KEY=client-...
 NEXT_PUBLIC_STATSIG_ENVIRONMENT=staging
 ```
+
+## Custom CSS
+
+We recommend to use `custom.css` to extend css classes in case you cannot find a solution with TailwindCSS.
+
+## How to change the icons / logo in the project
+
+Use your logo and generates the icons needed for the project.
+
+1. FOR ANDROID APPLE ICONS https://favicon.io/favicon-converter/
+
+Unzip the content and then paste and replace it on `your-template/public`
+
+2. FOR PWA ICONS https://tools.crawlink.com/tools/pwa-icon-generator/
+
+Unzip the content and then paste and replace it on `your-template/public/icons`
+
+
+:::tip
+In case you need converter from png to webp use: [https://cloudconvert.com/webp-converter](https://cloudconvert.com/webp-converter)
+:::
+

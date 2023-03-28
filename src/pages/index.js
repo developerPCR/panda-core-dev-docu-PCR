@@ -33,7 +33,7 @@ function HomepageHeader() {
                 <li class="listItem">Architecture</li>
                 <li class="listItem">Lorem</li>
               </ul> */}
-              <a class="link" href="/docs/category/tutorial---plus">
+              <a class="link" href="/docs/category/-tutorial---plus">
                 GO !
               </a>
             </div>
@@ -44,7 +44,7 @@ function HomepageHeader() {
                 <li class="listItem">Architecture</li>
                 <li class="listItem">Lorem</li>
               </ul> */}
-              <a class="link" href="/docs/category/tutorial---firebase">
+              <a class="link" href="/docs/category/-tutorial---firebase">
                 GO !
               </a>
             </div>
@@ -55,7 +55,7 @@ function HomepageHeader() {
                 <li class="listItem">Architecture</li>
                 <li class="listItem">Lorem</li>
               </ul> */}
-              <a class="link" href="/docs/category/tutorial---stripe">
+              <a class="link" href="/docs/category/-tutorial---stripe">
                 GO !
               </a>
             </div>

@@ -4,6 +4,108 @@ sidebar_position: 1
 
 # Getting started 
 
+You need first to read <a href="/docs/category/-tutorial---plus" >Panda Firebase Documentation</a> and make the whole setup.
+
+After going though the firebase doc this, update the rules with the new documents we will need for stripe project:
+
+
+Copy these rules:
+
+
+```
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+  
+     match /fe-my-drive/{uid} {
+      allow read, delete, write: if request.auth.uid == uid;
+      match /documents/{uid} {
+        allow read, write, delete: if true;
+      }
+     }
+  	 
+     match /fe-newsletter/{uid} {
+      allow read, write: if true;
+     }
+     
+     match /fe-credits/{uid} {
+      allow read: if true;
+     }
+ 
+     match /fe-credits-items/{uid} {
+      allow read: if true;
+     }
+     
+     match /fe-spendings/{uid} {
+      allow read: if true;
+      
+      match /transactions/{uid} {
+        allow read : if true;
+      }
+     }
+     
+     match /fe-credits/{uid} {
+      allow read: if true;
+     }
+  
+     match /fe-users/{uid} {
+      allow read, write: if request.auth.uid == uid;
+     }
+     
+     match /fe-hideouts/{uid} {
+      allow read, write: if true;
+     }
+     
+     match /fe-public-profiles/{uid} {
+      allow read: if true;
+      allow write: if request.auth.uid == uid;
+     }
+          
+     match /fe-customers/{uid} {
+      allow read, write: if request.auth.uid == uid;
+
+      match /checkout_sessions/{uid} {
+        allow read, write: if true;
+      }
+      match /cancel_subscriptions/{uid} {
+        allow read, write: if true;
+      }
+      match /subscriptions/{uid} {
+        allow read: if true;
+      }
+      match /payments/{uid} {
+        allow read: if true;
+      }
+      match /credits_spendings/{uid} {
+        allow read: if true;
+        allow create: if true;
+        allow update: if false;
+      }
+    }
+
+    match /fe-products/{uid} {
+      allow read: if true;
+
+      match /prices/{uid} {
+        allow read: if true;
+      }
+
+      match /tax_rates/{uid} {
+        allow read: if true;
+      }
+    }
+    
+    match /fe-vault/{uid} {
+      allow  write: if false;
+      allow read: if true;
+    }
+    
+  }
+  
+}
+```
+
+
 You will need a stripe account.
 
 After having you account ready, go to  https://console.firebase.google.com to start this guide.
