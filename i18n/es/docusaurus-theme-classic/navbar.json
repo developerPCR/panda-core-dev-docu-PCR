@@ -1,0 +1,10 @@
+{
+  "item.label.Blue Panda": {
+    "message": "Blue Panda",
+    "description": "Navbar item with label Blue Panda"
+  },
+  "item.label.Tutorial": {
+    "message": "Tutorial",
+    "description": "Navbar item with label Tutorial"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "version.label": {
+    "message": "Next",
+    "description": "The label for version current"
+  },
+  "sidebar.tutorialSidebar.category.🚀 Tutorial - Plus": {
+    "message": "🚀 Tutorial - Plus",
+    "description": "The label for category 🚀 Tutorial - Plus in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.🚀 Tutorial - Plus.link.generated-index.description": {
+    "message": "All configurations for Plus template.",
+    "description": "The generated-index page description for category 🚀 Tutorial - Plus in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.🔥 Tutorial - Firebase": {
+    "message": "🔥 Tutorial - Firebase",
+    "description": "The label for category 🔥 Tutorial - Firebase in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.🔥 Tutorial - Firebase.link.generated-index.description": {
+    "message": "5 minutes to learn the most important Panda Firebase concepts.",
+    "description": "The generated-index page description for category 🔥 Tutorial - Firebase in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.🏦 Tutorial - Stripe": {
+    "message": "🏦 Tutorial - Stripe",
+    "description": "The label for category 🏦 Tutorial - Stripe in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.🏦 Tutorial - Stripe.link.generated-index.description": {
+    "message": "5 minutes to learn the most important Panda Firebase concepts.",
+    "description": "The generated-index page description for category 🏦 Tutorial - Stripe in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.🪄 Tutorial - Headless CMS": {
+    "message": "🪄 Tutorial - Headless CMS",
+    "description": "The label for category 🪄 Tutorial - Headless CMS in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.🪄 Tutorial - Headless CMS.link.generated-index.description": {
+    "message": "5 minutes to learn the most important Panda Firebase concepts.",
+    "description": "The generated-index page description for category 🪄 Tutorial - Headless CMS in sidebar tutorialSidebar"
+  }
+}
