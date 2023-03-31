@@ -29,9 +29,8 @@ const config = {
   // to replace "en" with "zh-Hans".
   i18n: {
     defaultLocale: 'en',
-    locales: ['en'],
+    locales: ['en', 'es'],
   },
-
   presets: [
     [
       'classic',
@@ -76,6 +75,10 @@ const config = {
             href: 'https://blue-panda.dev',
             label: 'Blue Panda',
             position: 'right',
+          },
+          {
+            type: 'localeDropdown',
+            position: 'left',
           },
         ],
       },
