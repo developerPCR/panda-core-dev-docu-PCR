@@ -74,25 +74,25 @@ function HomepageHeader() {
         <div className="container-footer">
           <div>
             <div>
-              <div style={{ marginRight: "2rem" }}>
+              <div >
                 {" "}
                 <a href="">
                   <img src="/img/logo.webp" style={{ width: "30px" }} />{" "}
                 </a>
               </div>
-              <div style={{ marginRight: "2rem" }}>
+              <div >
                 {" "}
                 <a href="https://twitter.com/docusaurus">
                   <img src="/img/twitter.svg" style={{ width: "30px" }} />{" "}
                 </a>
               </div>
-              <div style={{ marginRight: "2rem" }}>
+              <div >
                 {" "}
                 <a href="https://github.com/facebook/docusaurus">
                   <img src="/img/github.png" style={{ width: "30px" }} />{" "}
                 </a>
               </div>
-              <div style={{ marginRight: "2rem" }}>
+              <div >
                 {" "}
                 <a href="https://discordapp.com/invite/docusaurus">
                   <img src="/img/discord.svg" style={{ width: "30px" }} />{" "}
@@ -100,13 +100,13 @@ function HomepageHeader() {
               </div>
             </div>
             <div>
-              <div style={{ marginRight: "2rem" }}>
+              <div>
                 <a href="javascript:void(0)">Partnership</a>{" "}
               </div>
-              <div style={{ marginRight: "2rem" }}>
+              <div>
                 <a href="javascript:void(0)">Licence</a>
               </div>
-              <div style={{ marginRight: "2rem" }}>
+              <div>
                 <a href="javascript:void(0)">Contact</a>
               </div>
             </div>

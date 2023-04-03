@@ -44,7 +44,10 @@ footer{
 main{
   background-color: #0a0a0a !important;
 }
-
+a{
+  font-weight: 500 !important;
+  text-decoration: none !important;
+}
 .homeCard {
   align-items: center;
   background: #0a0a0a;
@@ -109,11 +112,15 @@ main{
   place-items: center;
   justify-content: center;
 }
+.container-footer > div > div div{
+  margin-right: 2rem;
+}
 @media screen and (max-width: 600px) {
   .container-footer > div{
     display: block;
   }
   .container-footer > div >div:nth-child(2){
+    margin-top: 1rem;
     display: block;
     text-align: center;
   }
