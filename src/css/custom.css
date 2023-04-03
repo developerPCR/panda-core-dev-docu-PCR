@@ -6,31 +6,26 @@
 
 /* You can override the default Infima variables here. */
 :root {
-  --ifm-color-primary: #21222c;
-  --ifm-color-primary-dark: #29784c;
-  --ifm-color-primary-darker: #277148;
-  --ifm-color-primary-darkest: #205d3b;
-  --ifm-color-primary-light: #33925d;
-  --ifm-color-primary-lighter: #359962;
-  --ifm-color-primary-lightest: #3cad6e;
-  --ifm-code-font-size: 95%;
-  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+  --ifm-color-primary: #0a0a0a;
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
 [data-theme='dark'] {
-  --ifm-color-primary: #25c2a0;
-  --ifm-color-primary-dark: #21af90;
-  --ifm-color-primary-darker: #1fa588;
-  --ifm-color-primary-darkest: #1a8870;
-  --ifm-color-primary-light: #29d5b0;
-  --ifm-color-primary-lighter: #32d8b4;
-  --ifm-color-primary-lightest: #4fddbf;
-  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+  --ifm-color-primary: #9683f7;
 }
-
+body{
+  background-color: #1b1b1d;
+}
+footer{
+  background-color: #0a0a0a;
+  padding: 2rem 1rem;
+}
+.container > div{
+  display: "flex";
+  justify-content: "space-between"
+}
 .hero{
-  background-color: #21222c;
+  background-color: #0a0a0a;
   color: white;
 }
 .hero.title {
@@ -42,25 +37,34 @@
 }
 
 .navbar {
-  background-color: #21222c;
+  background-color: #0a0a0a;
   border-bottom: 1px solid #3a3a3a;
 }
 
 main{
-  background-color: #262833 !important;
+  background-color: #0a0a0a !important;
 }
 
 .homeCard {
   align-items: center;
-  background: #262833;
+  background: #0a0a0a;
   border-radius: var(--theme-card-border-radius);
   display: flex;
   flex: 0 0 auto;
   flex-direction: column;
   padding: 2rem;
   width: 350px;
+  border: 1px solid #444;
+  border-radius: 0.5rem;
 }
-
+.homeCard p{
+  color: gray;
+  min-height: 60px;
+  font-weight: 500;
+}
+.homeCard-img{
+  width: 100px;
+}
 .homeCard-title {
   color: white
 }
@@ -71,7 +75,10 @@ main{
   gap: 2rem;
   justify-content: center;
 }
-
+.hero__subtitle{
+  margin-bottom: 2rem;
+  color: #9a9a9a;
+}
 .list {
   display: flex;
   flex-direction: column;
@@ -89,11 +96,31 @@ main{
 }
 
 .listItem::before {
-  color: #1b72f5;
+  color: #9683f7;
   content: "➤";
   margin-right: 0.5rem;
 }
-
+.container-footer > div{
+  display: flex;
+  justify-content: space-between;
+}
+.container-footer > div > div{
+  display: flex;
+  place-items: center;
+  justify-content: center;
+}
+@media screen and (max-width: 600px) {
+  .container-footer > div{
+    display: block;
+  }
+  .container-footer > div >div:nth-child(2){
+    display: block;
+    text-align: center;
+  }
+  .container-footer > div >div:nth-child(2) div{
+    padding: 5px
+  }
+}
 .link {
   color: #fff;
   font-size: var(--font-size-normal);
@@ -105,6 +132,11 @@ main{
   color: white;
   text-decoration: none;
   transition-duration: .3s;
+  border: 1px solid #444;
+  width: 100%;
+  padding: 0.5rem 0.5rem;
+  border-radius: 0.5rem;
+  display: block;
 }
 
 .link:hover {
@@ -118,9 +150,28 @@ main{
 }
 
 .navbar__link:hover {
-  color: #1b72f5
+  color: #9683f7
 }
 main{
-  background-color: #1b72f5;
+  background-color: #9683f7;
   color: white;
+}
+
+.fancy-hover {
+  z-index: 2;
+  position: relative;
+  display: inline-block;
+  padding: 20px 32px;
+  box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.4);
+  margin-bottom: 32px;
+  border-radius: 8px;
+  transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  transition-delay: 0.03s;
+}
+
+.fancy-hover:hover {
+  background-color: #211b1d;
+  border: none;
+  transform: scaleY(1) scaleX(1) translateY(-25px);
+  box-shadow: 0 0 0 2px #9683f7, 0 4px 10px rgba(255, 0, 98, 0.231);
 }
