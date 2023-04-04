@@ -70,7 +70,12 @@ Base Templates
     </a>
 </details>
 <details>
-    <summary>Panda CMS</summary>
+<summary>
+    <div style={{display: 'flex', justifyContent: 'space-between'}}>
+    <div>Panda CMS</div>
+    <div style={{marginLeft: 'auto'}}><img src={'/img/cms.png'} style={{width: '15px', marginRight: '5px'}} /></div>
+    </div>
+    </summary>
     <p>Soon</p>
 </details>
 
