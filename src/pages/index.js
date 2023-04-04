@@ -69,25 +69,19 @@ function HomepageHeader() {
             <div>
               <div>
                 {" "}
-                <a href="">
+                <a href="https://blue-panda.dev/">
                   <img src="/img/logo.webp" style={{ width: "30px" }} />{" "}
                 </a>
               </div>
               <div>
                 {" "}
-                <a href="https://twitter.com/docusaurus">
+                <a href="https://twitter.com/bluepanda_dev">
                   <img src="/img/twitter.svg" style={{ width: "30px" }} />{" "}
                 </a>
               </div>
               <div>
                 {" "}
-                <a href="https://github.com/facebook/docusaurus">
-                  <img src="/img/github.png" style={{ width: "30px" }} />{" "}
-                </a>
-              </div>
-              <div>
-                {" "}
-                <a href="https://discordapp.com/invite/docusaurus">
+                <a href="https://discord.com/invite/XX3tpJxptC">
                   <img src="/img/discord.svg" style={{ width: "30px" }} />{" "}
                 </a>
               </div>

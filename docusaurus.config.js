@@ -59,13 +59,6 @@ const config = {
         },
         items: [
           {
-            image: 'img/docusaurus-social-card.jpg',
-            type: 'doc',
-            docId: 'intro',
-            position: 'left',
-            label: 'Blue Panda',
-          },
-          {
             type: 'doc',
             docId: 'intro',
             position: 'left',
