@@ -8,10 +8,8 @@ import styles from "./index.module.css";
 
 function HomepageHeader() {
   const { siteConfig } = useDocusaurusContext();
-  function go(url) {
-    console.log("KAKAK");
-    window.open(url)
-  }
+
+
   return (
     <div className="content-hero">
       <header className={clsx("hero hero--primary", styles.heroBanner)}>
@@ -111,6 +109,11 @@ export default function Home() {
       title={`Hello from ${siteConfig.title}`}
       description="Description will go into a meta tag in <head />"
     >
+      <Head>
+        <meta property="og:title" content="Panda Plus | Use Develop Ship"/>
+        <meta property="og:image" content="https://plus.blue-panda.dev/_next/image?url=%2Ffeatures%2Frainbow.webp&w=256&q=75"/>
+        <meta property="og:description" content="Put yourself weeks ahead with our Panda templates, save months of work."/>
+      </Head>
       <HomepageHeader />
     </Layout>
   );
