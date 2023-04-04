@@ -29,6 +29,29 @@
 .blue[aria-selected='true'] {
   border-bottom-color: blue;
 }
+ul {
+  list-style: none;
+}
 
-
-
+.circle{
+  width: 10px;
+  height: 10px;
+  display: inline-block;
+  border-radius: 100%;
+  background-color: #9683f7;
+  margin-right: 5px;
+}
+.accordionTitle{
+  display: flex;
+    align-items: center;
+}
+details{
+  background: black !important;
+  border-color: #444 !important;
+}
+details > div > div{
+  border-color: #9683f7 !important;
+}
+details > summary::before{
+  border-color: transparent transparent transparent #9683f7 !important;
+}

@@ -8,35 +8,33 @@ import styles from "./index.module.css";
 
 function HomepageHeader() {
   const { siteConfig } = useDocusaurusContext();
+  function go(url) {
+    console.log("KAKAK");
+    window.open(url)
+  }
   return (
-    <div style={{ position: "relative" }}>
+    <div className="content-hero">
       <header className={clsx("hero hero--primary", styles.heroBanner)}>
         <div className="container">
           <h1 className="hero__title">{siteConfig.title}</h1>
           <p className="hero__subtitle">{siteConfig.tagline}</p>
           <div className={styles.buttons}>
             <div className="content-homeCard">
-              <div className="homeCard fancy-hover">
+              <a className="homeCard fancy-hover" href="docs/intro">
                 <div>
                   <img className="homeCard-img" src="/img/core.webp" />
                 </div>
                 <h2 className="homeCard-title">Panda Intro - 5m ⏱️</h2>
                 <p>Lets begin your environment</p>
-                <a class="link" href="/docs/intro">
-                  GO !
-                </a>
-              </div>
-              <div className="homeCard fancy-hover">
+              </a>
+              <a className="homeCard fancy-hover" href="/docs/category/-tutorial---plus">
                 <div>
                   <img className="homeCard-img" src="/img/plus.webp" />
                 </div>
                 <h2 className="homeCard-title">Panda Plus - 10m ⏱️</h2>
                 <p>Build your SaaS with all core features</p>
-                <a class="link" href="/docs/category/-tutorial---plus">
-                  GO !
-                </a>
-              </div>
-              <div className="homeCard fancy-hover">
+              </a>
+              <a className="homeCard fancy-hover" href="/docs/category/-tutorial---firebase">
                 <div>
                   <img
                     className="homeCard-img"
@@ -46,26 +44,21 @@ function HomepageHeader() {
                 </div>
                 <h2 className="homeCard-title">Panda Firebase - 20m ⏱️</h2>
                 <p>Build your SaaS with Next.js and Firebase</p>
-                <a class="link" href="/docs/category/-tutorial---firebase">
-                  GO !
-                </a>
-              </div>
-              <div className="homeCard fancy-hover">
+              </a>
+              <a className="homeCard fancy-hover" href="/docs/category/-tutorial---stripe"> 
                 <div>
                   <img className="homeCard-img" src="/img/stripe.png" />
                 </div>
                 <h2 className="homeCard-title">Panda Stripe - 30m ⏱️</h2>
                 <p>Build your SaaS with Firebase and Stripe</p>
-                <a class="link" href="/docs/category/-tutorial---stripe">
-                  GO !
-                </a>
-              </div>
-              <div className="homeCard fancy-hover">
+              </a>
+              <a className="homeCard fancy-hover">
+                <div>
+                  <img className="homeCard-img" src="/img/cms.png" />
+                </div>
                 <h2 className="homeCard-title">Panda CMS</h2>
-                <a class="link" href="javascript:void(0)">
                   Soon...
-                </a>
-              </div>
+              </a>
             </div>
           </div>
         </div>
@@ -74,25 +67,25 @@ function HomepageHeader() {
         <div className="container-footer">
           <div>
             <div>
-              <div >
+              <div>
                 {" "}
                 <a href="">
                   <img src="/img/logo.webp" style={{ width: "30px" }} />{" "}
                 </a>
               </div>
-              <div >
+              <div>
                 {" "}
                 <a href="https://twitter.com/docusaurus">
                   <img src="/img/twitter.svg" style={{ width: "30px" }} />{" "}
                 </a>
               </div>
-              <div >
+              <div>
                 {" "}
                 <a href="https://github.com/facebook/docusaurus">
                   <img src="/img/github.png" style={{ width: "30px" }} />{" "}
                 </a>
               </div>
-              <div >
+              <div>
                 {" "}
                 <a href="https://discordapp.com/invite/docusaurus">
                   <img src="/img/discord.svg" style={{ width: "30px" }} />{" "}
