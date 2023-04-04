@@ -18,7 +18,6 @@ They are full compatible with all the base templates we will have:
 
 :::
 
-
 <img src={'/ss/designs.png'} style={{width: '100%'}} />
 
 
