@@ -2,7 +2,7 @@ import React from "react";
 import clsx from "clsx";
 import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 import Layout from "@theme/Layout";
-import HomepageFeatures from "@site/src/components/HomepageFeatures";
+import Head from '@docusaurus/Head';
 
 import styles from "./index.module.css";
 
@@ -110,7 +110,7 @@ export default function Home() {
       description="Description will go into a meta tag in <head />"
     >
       <Head>
-        <meta property="og:title" content="Panda Plus | Use Develop Ship"/>
+        <meta property="og:title" content="11111"/>
         <meta property="og:image" content="https://plus.blue-panda.dev/_next/image?url=%2Ffeatures%2Frainbow.webp&w=256&q=75"/>
         <meta property="og:description" content="Put yourself weeks ahead with our Panda templates, save months of work."/>
       </Head>
