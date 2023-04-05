@@ -103,14 +103,11 @@ function HomepageHeader() {
 }
 
 export default function Home() {
-  const { siteConfig } = useDocusaurusContext();
+  // const { siteConfig } = useDocusaurusContext();
   return (
-    <Layout
-      title={`Hello from ${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />"
-    >
+    <Layout>
       <Head>
-        <meta property="og:title" content="11111"/>
+        <meta property="og:title" content="Blue Panda | Use, develop, ship"/>
         <meta property="og:image" content="https://plus.blue-panda.dev/_next/image?url=%2Ffeatures%2Frainbow.webp&w=256&q=75"/>
         <meta property="og:description" content="Put yourself weeks ahead with our Panda templates, save months of work."/>
       </Head>
