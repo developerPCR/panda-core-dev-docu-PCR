@@ -57,3 +57,10 @@ Be aware of environment variables you need to change on `.env.local` file. Also 
 where you need to add your texts.
 
 :::
+
+<head>
+<meta property="og:title" content="Panda Plus | Where to start?"/>
+<meta property="og:image" content="https://media.discordapp.net/attachments/1092919759911256125/1092920697787002901/2.png?width=625&height=625"/>
+<meta property="og:description" content="Depending on the template you have, you will follow different documentations."/>
+<meta property="og:url" content="https://docu.blue-panda.dev/docs/howtostart"/>
+</head>
