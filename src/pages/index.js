@@ -44,13 +44,11 @@ function HomepageHeader() {
                 <p>Build your SaaS with Next.js and Firebase</p>
               </a>
               <a className="homeCard fancy-hover" href="/docs/category/-tutorial---stripe"> 
-              <div >
                 <div>
                   <img className="homeCard-img" src="/img/stripe.png" />
                 </div>
                 <h2 className="homeCard-title">Panda Stripe - 30m ⏱️</h2>
                 <p>Build your SaaS with Firebase and Stripe</p>
-              </div>
               </a>
               <a className="homeCard fancy-hover">
                 <div>
