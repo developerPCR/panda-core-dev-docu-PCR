@@ -141,3 +141,10 @@ Unzip the content and then paste and replace it on `your-template/public/icons`
 In case you need converter from png to webp use: [https://cloudconvert.com/webp-converter](https://cloudconvert.com/webp-converter)
 :::
 
+
+<head>
+<meta property="og:title" content="Panda Plus"/>
+<meta property="og:image" content="https://media.discordapp.net/attachments/1092919759911256125/1092920698198032545/1.png?width=588&height=588"/>
+<meta property="og:description" content="If you have the Panda Plus template, this includes Panda Core (Free) and you have a landing page with multiple features, such as dark/light mode, i18n, sections and more."/>
+<meta property="og:url" content="https://docu.blue-panda.dev/docs/category/-tutorial---plus"/>
+</head>

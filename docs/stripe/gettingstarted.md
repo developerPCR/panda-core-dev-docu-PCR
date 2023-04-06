@@ -325,3 +325,11 @@ After having you account ready, go to  https://console.firebase.google.com to st
 54. Description of the step
 
 <img src={'/instructions/stripe/54.png'} style={{width: '320px'}} />
+
+
+<head>
+<meta property="og:title" content="Getting started !"/>
+<meta property="og:image" content="https://media.discordapp.net/attachments/1092919759911256125/1093321217630548058/download.png"/>
+<meta property="og:description" content="Let's discover Blue Panda Plus less than 5 minutes."/>
+<meta property="og:url" content="https://docu.blue-panda.dev/docs/intro"/>
+</head>

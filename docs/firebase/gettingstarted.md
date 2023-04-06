@@ -194,3 +194,10 @@ Copy these rules:
 This allows a registered user to upload a file, if you want to allow anonymous users, remove `if request.auth.uid == uid ;` 
 :::
 
+
+<head>
+<meta property="og:title" content="Getting started !"/>
+<meta property="og:image" content="https://media.discordapp.net/attachments/1092919759911256125/1093321217869611138/image_1.png"/>
+<meta property="og:description" content="If you have Panda Firebase template, means that you also have included Panda Plus and Users features, such as Login, Logout, Forgot Password, Register, Restricted areas, Upload files much more."/>
+<meta property="og:url" content="https://docu.blue-panda.dev/docs/category/-tutorial---firebase"/>
+</head>

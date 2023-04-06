@@ -59,6 +59,7 @@ a{
   width: 350px;
   border: 1px solid #444;
   border-radius: 0.5rem;
+  justify-content: center;
 }
 .homeCard p{
   color: gray;
@@ -167,7 +168,6 @@ main{
 .fancy-hover {
   z-index: 2;
   position: relative;
-  display: inline-block;
   padding: 20px 32px;
   box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.4);
   margin-bottom: 32px;
