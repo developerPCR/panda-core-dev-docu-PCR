@@ -2,21 +2,32 @@
 sidebar_position: 2
 ---
 
+import styles from '../styles.module.css';
+
 # Designs 
 
 We want to come up with around 10 different designs for each template.
 
 
-:::info
 They are full compatible with all the base templates we will have:
 
-- Plus (Landing Page)
-- FireBase - Plus + Users (Login, Logout, Register, Forgot password, Restricted area and more)
-- Stripe (Subscriptions, Products, Credits, Restricted area for subscriptions)
-- Headless CMS (Soon)
-- Web3 (Soon)
+<div>
+    <div className={styles.circle}></div> Plus (Landing Page)
+</div>
+<div>
+    <div className={styles.circle}></div> FireBase - Plus + Users (Login, Logout, Register, Forgot password, Restricted area and more)
+</div>
+<div>
+    <div className={styles.circle}></div> Stripe (Subscriptions, Products, Credits, Restricted area for subscriptions)
+</div>
+<div>
+    <div className={styles.circle}></div> Headless CMS (Soon)
+</div>
+<div>
+    <div className={styles.circle}></div> Web3 (Soon)
+</div>
 
-:::
+<div style={{marginBottom: '1rem'}}></div>
 
 <img src={'/ss/designs.png'} style={{width: '100%'}} />
 
