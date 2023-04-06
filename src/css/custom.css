@@ -190,3 +190,7 @@ main{
   justify-content: space-between;
   background-color: #0a0a0a;
 }
+
+.tabs{
+  font-weight: 400 !important;
+}
