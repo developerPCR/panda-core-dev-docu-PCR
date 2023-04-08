@@ -50,6 +50,12 @@ function HomepageHeader() {
                 <h2 className="homeCard-title">Panda Stripe - 30m ⏱️</h2>
                 <p>Build your SaaS with Firebase and Stripe</p>
               </a>
+              <a className="homeCard fancy-hover" href="/docs/category/-tutorial---lemonsqueezy">
+                <div>
+                  <img  src="/img/lemonsqueezy-logo.png" />
+                </div>
+                Soon...
+              </a>
               <a className="homeCard fancy-hover">
                 <div>
                   <img className="homeCard-img" src="/img/cms.png" />
