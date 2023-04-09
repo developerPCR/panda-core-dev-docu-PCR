@@ -55,3 +55,31 @@ details > div > div{
 details > summary::before{
   border-color: transparent transparent transparent #9683f7 !important;
 }
+
+
+.button{
+  background-color: #5865f2;
+  border-radius: 10rem;
+  color: #fff;
+  font-size: 1rem;
+  letter-spacing: .10rem;
+  padding: .9rem 1.5rem;
+  position: relative;
+  float: right;
+  text-transform: uppercase;
+  transition: all .3s;
+  border: 1px solid #4752c4;
+}
+
+.button:hover{
+  background-color: #4752c4;
+}
+
+.buttonLink{
+  color: white;
+  display: flex;
+  font-size: medium;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  justify-content: center;
+  width: 100%;
+}

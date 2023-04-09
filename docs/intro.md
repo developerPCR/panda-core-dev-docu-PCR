@@ -1,6 +1,7 @@
 ---
 sidebar_position: 1
 ---
+import styles from '../styles.module.css';
 
 # Tutorial - Getting started
 
@@ -39,3 +40,6 @@ Example:
 
 ![alt text](/ss/ex.png)
 
+<button className={styles.button}>
+        <a className={styles.buttonLink} target="_blank" href="https://discord.gg/fNPNeZsjsU"><span>Join us discord</span></a>
+</button>
