@@ -30,13 +30,13 @@ Usually takes less than 2 hours to have your page working with all the configs, 
 Base Templates
 
 <details>
-    <summary> Panda Core</summary>
+    <summary> 🚢 Panda Core</summary>
     <p>This is the free version, contains basic structure, some base components without sections, and dark/light mode</p>
 </details>
  <details>
     <summary>
     <div style={{display: 'flex', justifyContent: 'space-between'}}>
-    <div>Panda Plus</div>
+    <div> 🚀 Panda Plus</div>
     <div style={{marginLeft: 'auto'}}><img src={'/img/plus.png'} style={{width: '20px'}} /></div>
     </div>
     </summary>
@@ -48,7 +48,7 @@ Base Templates
 <details>
 <summary>
     <div style={{display: 'flex', justifyContent: 'space-between'}}>
-    <div>Panda Firebase</div>
+    <div> 🔥 Panda Firebase</div>
     <div style={{marginLeft: 'auto'}}><img src={'/img/firebase.png'} style={{width: '15px', marginRight: '5px'}} /></div>
     </div>
     </summary>
@@ -60,7 +60,7 @@ Base Templates
 <details>
 <summary>
     <div style={{display: 'flex', justifyContent: 'space-between'}}>
-        <div>Panda Stripe</div>
+        <div> 🏦 Panda Stripe</div>
         <div style={{marginLeft: 'auto'}}><img src={'/img/stripe.png'} style={{width: '35px', marginRight: '5px'}} /></div>
     </div>
 </summary>
@@ -72,7 +72,7 @@ Base Templates
 <details>
 <summary>
     <div style={{display: 'flex', justifyContent: 'space-between'}}>
-    <div>Panda CMS</div>
+    <div> ⚙️ Panda CMS</div>
     <div style={{marginLeft: 'auto'}}><img src={'/img/cms.png'} style={{width: '15px', marginRight: '5px'}} /></div>
     </div>
     </summary>
