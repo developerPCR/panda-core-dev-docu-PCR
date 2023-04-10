@@ -110,19 +110,6 @@ The component that has the list of languages is `components/organisms/NavBar.tsx
 
 <img src={'/ss/lans.png'} style={{width: 200}} />
 
-
-
-## Analytics (Statsig)
-
-We provide a simple example using https://www.statsig.com/ analytics, you could also remove it and add another provider, but we recommend this since has a lot of features and a nice free tier.
-We added an example of A/B testing within the Plus template, also a feature flag and tracking events. so pretty much all you could need form this tool.
-
-File containing analytics config: `.env.local`
-``` sh 
-NEXT_PUBLIC_STATSIG_CLIENT_SDK_KEY=client-...
-NEXT_PUBLIC_STATSIG_ENVIRONMENT=staging
-```
-
 ## Custom CSS
 
 We recommend to use `custom.css` to extend css classes in case you cannot find a solution with TailwindCSS.
