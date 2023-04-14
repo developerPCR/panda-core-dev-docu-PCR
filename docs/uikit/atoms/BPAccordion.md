@@ -41,7 +41,9 @@ import BPAccordion, {
 | ----------- | ----------- | ----------- |
 | icon | null | ReactElement<any, string \| JSXElementConstructor<any\>\> | 
 | variant | default | 'default' \| 'inverted' \| 'danger' \| 'cyber' \| 'caution' \| 'success' \| 'primary' \| 'secondary' \| 'accent' \| 'light' \| 'link’ | 
-| ... | ... | ... | 
+| size | md | 'xxs'  \| 'xs'   \| 's'  \| 'md'  \| 'lg'  \| 'xl' \| 'xxl' 
+| outlined | false | true \|  false 
+| magic | false | true \|  false 
 
 
 Check more colors, statuses and styles at: 
