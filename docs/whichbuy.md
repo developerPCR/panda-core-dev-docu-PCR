@@ -32,6 +32,9 @@ Base Templates
 <details>
     <summary> 🚢 Panda Core</summary>
     <p>This is the free version, contains basic structure, some base components without sections, and dark/light mode</p>
+    <p>
+    To have this project running , shouldnt take more than 2 minutes average.
+    </p>
 </details>
  <details>
     <summary>
@@ -41,9 +44,6 @@ Base Templates
     </div>
     </summary>
     <p>(Core Included) This is a landing page, which includes i18n, multiple sections such as Hero, Plans, Products, Features, Why Us, My Numbers, Reviews, Timeline, Customers, Code Example, Subscribe US, Tech Stack, FAQs and Cookies Popup and more components.</p>
-    <a href="https://plus.blue-panda.dev/">
-        See demo
-    </a>
 </details>
 <details>
 <summary>
@@ -114,17 +114,9 @@ Designs.
 | Design 3  | https://plus-3.blue-panda.dev/  |
 | Design 4  | https://plus-4.blue-panda.dev/  |
 | Design 5  | https://plus-5.blue-panda.dev/  |
-| Design 6  | https://plus-6.blue-panda.dev/  |
-| Design 7  | https://plus-7.blue-panda.dev/  |
-| Design 8  | https://plus-8.blue-panda.dev/  |
-| Design 9  | https://plus-9.blue-panda.dev/  |
-| Design 10 | https://plus-10.blue-panda.dev/ |
+| Design 6 (soon)  | https://plus-6.blue-panda.dev/  |
+| Design 7 (soon) | https://plus-7.blue-panda.dev/  |
+| Design 8 (soon) | https://plus-8.blue-panda.dev/  |
+| Design 9 (soon) | https://plus-9.blue-panda.dev/  |
+| Design 10 (soon) | https://plus-10.blue-panda.dev/ |
 
-:::tip
-If you are under a subscription model with us, you dont need to worry about choosing templates, since you will have all repo access (including updates and support).
-
-Our repo is on GitHub and you will have a sit in case you subscribe a Panda Team.
-
-See more at our website https://blue-panda.dev/
-
-:::

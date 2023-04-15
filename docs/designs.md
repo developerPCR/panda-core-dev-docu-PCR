@@ -31,6 +31,11 @@ They are full compatible with all the base templates we will have:
 
 <img src={'/ss/designs.png'} style={{width: '100%'}} />
 
+:::info
+All designs are based (forked) from the same code-base, so you will have the same architecture, UI Components, and Core for all of them.
+We just change some UI elements and sections to have different choices for you and accelerate your start.
+:::
+
 
 ### You can see a live examples from here
 
@@ -41,11 +46,11 @@ They are full compatible with all the base templates we will have:
 | Design 3| https://plus-3.blue-panda.dev/        |
 | Design 4| https://plus-4.blue-panda.dev/        |
 | Design 5| https://plus-5.blue-panda.dev/        |
-| Design 6| https://plus-6.blue-panda.dev/        |
-| Design 7| https://plus-7.blue-panda.dev/        |
-| Design 8| https://plus-8.blue-panda.dev/        |
-| Design 9| https://plus-9.blue-panda.dev/        |
-| Design 10| https://plus-10.blue-panda.dev/        |
+| Design 6 (soon)| https://plus-6.blue-panda.dev/        |
+| Design 7 (soon)| https://plus-7.blue-panda.dev/        |
+| Design 8 (soon)| https://plus-8.blue-panda.dev/        |
+| Design 9 (soon)| https://plus-9.blue-panda.dev/        |
+| Design 10 (soon)| https://plus-10.blue-panda.dev/        |
 
 
 ### Branch architecture

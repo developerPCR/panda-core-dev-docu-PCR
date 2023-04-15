@@ -1,12 +1,12 @@
 ---
-sidebar_position: 2
+sidebar_position: 16
 ---
 
 import styles from '../styles.module.css';
 
 # Architecture 
 
-Let's discover **Blue Panda** arquitecture (Still in progress).
+Let's discover **Blue Panda** arquitecture.
 
 Part of the technologies we use are:
 
@@ -20,7 +20,7 @@ Part of the technologies we use are:
     <div className={styles.circle}></div> Tailwind 
 </div>
 <div>
-    <div className={styles.circle}></div> HeadlessUI 
+    <div className={styles.circle}></div> HeadlessUI / Radix
 </div>
 <div>
     <div className={styles.circle}></div> FireBase 
@@ -42,13 +42,13 @@ We are under construction for the following technologies:
     <div className={styles.circle}></div> Headless CMS with sanity
 </div>
 <div>
-    <div className={styles.circle}></div> Web3 template
+    <div className={styles.circle}></div> Web3 
 </div>
 <div>
-    <div className={styles.circle}></div> Paddle Integration (still investigating)
+    <div className={styles.circle}></div> Paddle Integration
 </div>
 <div>
-    <div className={styles.circle}></div> Lemon Squeezy Integration (still investigating)
+    <div className={styles.circle}></div> Lemon Squeezy Integration
 </div>
 
 <div style={{marginBottom: '1rem'}}></div>
