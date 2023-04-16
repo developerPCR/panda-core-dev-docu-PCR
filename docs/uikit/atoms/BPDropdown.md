@@ -18,7 +18,7 @@ import BPDropdown from '@components/atoms/BPDropdown'
 </BPDropdownItem>
 ```
 
-<iframe width="100%" heigh="200px" src="https://ui-kit.blue-panda.dev/iframe.html?args=&id=atoms-bpswitch--types&viewMode=story" />
+<iframe width="100%" heigh="200px" src="https://ui-kit.blue-panda.dev/iframe.html?id=atoms-bpdropdown--default-example&viewMode=story" />
 
 
 ### Props 
