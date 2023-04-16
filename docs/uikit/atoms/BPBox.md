@@ -22,7 +22,7 @@ import BPBox from '@components/atoms/BPBox'
 </BPBox>
 ```
 
-<iframe width="100%" heigh="200px" src="https://ui-kit.blue-panda.dev/iframe.html?args=&id=atoms-bpbadge--basic&viewMode=story" />
+<iframe width="100%" heigh="200px" src="https://ui-kit.blue-panda.dev/iframe.html?args=&id=atoms-bpbox--basic&viewMode=story" />
 
 
 ### Props 
@@ -41,4 +41,4 @@ import BPBox from '@components/atoms/BPBox'
 Check more colors, statuses and styles at: 
 <img src={'/img/sb.png'} style={{width: '15px'}} />
 
-https://ui-kit.blue-panda.dev/?path=/story/atoms-bpbadge--basic
+https://ui-kit.blue-panda.dev/?path=/story/atoms-bpbox--basic
