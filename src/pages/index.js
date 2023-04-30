@@ -18,12 +18,19 @@ function HomepageHeader() {
           <p className="hero__subtitle">{siteConfig.tagline}</p>
           <div className={styles.buttons}>
             <div className="content-homeCard">
-              <a className="homeCard fancy-hover" href="docs/intro">
+              <a className="homeCard fancy-hover" href="/docs/intro">
                 <div>
                   <img className="homeCard-img" src="/img/core.webp" />
                 </div>
                 <h2 className="homeCard-title">Panda Intro - 5m ⏱️</h2>
                 <p>Lets begin your environment</p>
+              </a>
+              <a className="homeCard fancy-hover" href="/docs/category/--ui-kit---components">
+                <div>
+                  <img className="homeCard-img" src="/img/uikit.webp" />
+                </div>
+                <h2 className="homeCard-title">Panda UI Kit - 15m ⏱️</h2>
+                <p>Improve your designs with awesome components.</p>
               </a>
               <a className="homeCard fancy-hover" href="/docs/category/-tutorial---plus">
                 <div>
