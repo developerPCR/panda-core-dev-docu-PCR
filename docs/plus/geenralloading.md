@@ -4,7 +4,8 @@ sidebar_position: 14
 
 # General Loading 
 
-In case you need to load and block the page, you can use our global state for this.
+<h2>In case you need to load and block the page, you can use our global state for this.</h2>
+
 ```tsx
   import { loadingAtom } from '@core/store/Common'
  

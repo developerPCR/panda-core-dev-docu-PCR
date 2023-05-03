@@ -6,7 +6,7 @@ import styles from '../styles.module.css';
 
 # Architecture 
 
-Let's discover **Blue Panda** arquitecture.
+<h2>Let's discover <b>Blue Panda arquitecture</b>.</h2>
 
 Part of the technologies we use are:
 

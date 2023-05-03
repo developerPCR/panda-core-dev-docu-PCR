@@ -4,7 +4,7 @@ sidebar_position: 11
 
 # Dark/light mode 
 
-We have a nice implementation to display your website either in a light or dark theme 🔆.
+<h2>We have a nice implementation to display your website either in a light or dark theme 🔆.</h2>
 
 Combination of tailwind, localstorage, user preference.
 

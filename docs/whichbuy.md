@@ -6,7 +6,7 @@ import styles from '../styles.module.css';
 
 # Decide my Template
 
-There are multiple templates and designs combinations that you can choose.
+<h2>There are multiple templates and designs combinations that you can choose.</h2>
 
 :::caution
 We dont have access to your project in anyway, all you will have is the Panda Template, Google Functions and Documentation to setup all the other services.

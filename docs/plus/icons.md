@@ -4,8 +4,9 @@ sidebar_position: 8
 
 # Icons 
 
+<h2>Please check out and choose your icons</h2>
 
-We have included [react icons](https://react-icons.github.io/react-icons/) which has an vast amount of icons available (tree shaking capable).
+We have included [react icons](https://react-icons.github.io/react-icons/) which has a vast amount of icons available (tree shaking capable).
 
 
 Simple to use:

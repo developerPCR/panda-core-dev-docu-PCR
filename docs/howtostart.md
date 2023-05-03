@@ -7,7 +7,7 @@ import TabItem from '@theme/TabItem';
 
 # Where to start? 
 
-Depending on the template you have, you will follow different documentations.
+<h2>Depending on the template you have, you will follow different documentations.</h2>
 
 :::info
 We have multiple designs per template, so all designs you see on https://docu.blue-panda.dev/docs/designs have the same features

@@ -7,7 +7,7 @@ import styles from '../../styles.module.css';
 
 # Getting started 
 
-Panda Plus has some configurations that are used for several features, such as colors, i18n and others.
+<h2>Panda Plus has some configurations that are used for several features, such as colors, i18n and others.</h2>
 
 ## Common commands 
 

@@ -4,7 +4,9 @@ sidebar_position: 6
 
 # Notifications preferences 
 
-We save notifications preferences of the user on firebase, under `fe-users > notifications` fields:
+<h2>We save notifications preferences of the user on firebase</h2> 
+
+#### under `fe-users > notifications` fields:
 
 ```
 billing: boolean 

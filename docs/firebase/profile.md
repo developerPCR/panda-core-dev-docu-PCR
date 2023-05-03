@@ -4,7 +4,8 @@ sidebar_position: 7
 
 # Profile data 
 
-We use the provider data for users profile, such us displayu name and avatar, in case the user log in with `email/password` we will not have data available,
+<h2>We use the provider data for users profile </h2>
+Such us displayu name and avatar, in case the user log in with `email/password` we will not have data available,
 so there is a profile page where the user can upload their profile photo and extra data, we added a website input as example, you can add all data you will need from the user there.
 
 :::info

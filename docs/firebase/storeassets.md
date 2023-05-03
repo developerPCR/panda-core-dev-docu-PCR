@@ -4,9 +4,9 @@ sidebar_position: 8
 
 # Store assets
 
+<h2>Feel free to use our hook for this, all things you upload will be store on firebase storage (it is like S3).</h2>
 You can see a good example of this on `components/organisms/account/Profile.tsx`.
 
-Feel free to use our hook for this, all things you upload will be store on firebase storage (it is like S3).
 
 How to use it:
 

@@ -4,7 +4,7 @@ sidebar_position: 9
 
 # Cookies GDPR Ready 
 
-We have also included an automatic popup which allows the user to accept the cookies. 
+<h2>We have also included an automatic popup which allows the user to accept the cookies. </h2>
 
 **Why Cookie Consent Necessary?** 🤷‍♂️🍪
 

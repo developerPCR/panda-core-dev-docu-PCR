@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # Getting started 
 
-You will need a firebase account, with a BLAZE plan (pay what you use).
+<h2>You will need a firebase account, with a BLAZE plan (pay what you use).</h2>
 
 After having you account ready, go to https://console.firebase.google.com/ to start this guide.
 

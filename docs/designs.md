@@ -6,7 +6,7 @@ import styles from '../styles.module.css';
 
 # Designs 
 
-We want to come up with around 10 different designs for each template.
+<h2>We want to come up with around 10 different designs for each template.</h2>
 
 
 They are full compatible with all the base templates we will have:

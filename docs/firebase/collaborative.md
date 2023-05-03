@@ -4,6 +4,8 @@ sidebar_position: 3
 
 # Collaborative 
 
+<h2>Do you want to collaborate?</h2>
+
 In case you can create an app which has collaborative functionality, you can check hideous pages, where everyone can add ideas 
 and see who is connected. this is working with live data, coming from firebase.
 

@@ -4,6 +4,8 @@ sidebar_position: 6
 
 # Images 
 
+<h2>Best perfomance for your images and pictures</h2>
+
 All our images are `webp` formats, we strongly recommend that you use the same formats and `Image` nextjs component to get a better performance experience.
 
 :::tip

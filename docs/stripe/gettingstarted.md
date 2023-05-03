@@ -6,6 +6,8 @@ import styles from '../../styles.module.css';
 
 # Getting started 
 
+<h2>Please follow the next steps</h2>
+
 :::caution
 You need first to read <a href="/docs/category/-tutorial---plus" >Panda Firebase Documentation</a> and make the whole setup.
 

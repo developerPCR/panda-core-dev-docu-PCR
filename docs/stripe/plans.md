@@ -6,6 +6,7 @@ import styles from '../../styles.module.css';
 
 # Plans 
 
+<h2>Choose your plan!</h2>
 
 ### Stripe configurations
 

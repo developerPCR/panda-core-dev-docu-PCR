@@ -83,3 +83,8 @@ details > summary::before{
   justify-content: center;
   width: 100%;
 }
+
+h2{
+  font-size: medium;
+  font-weight: 500;
+}

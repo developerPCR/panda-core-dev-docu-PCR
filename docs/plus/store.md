@@ -4,6 +4,8 @@ sidebar_position: 13
 
 # Store Managment 
 
+<h2>Lightweight for your project!</h2>
+
 We use a very lightweight store manager which is [Jotai](https://jotai.org), just for some loading statuses and global things.
 
 :::tip

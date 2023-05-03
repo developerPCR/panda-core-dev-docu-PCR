@@ -8,6 +8,7 @@ import styles from '../../styles.module.css';
 
 
 ### Stripe configurations
+<h2>Please follow the next steps for your stripe project</h2>
 
 <div>
     <div className={styles.circle}></div> Go to stripe and add a product. 

@@ -5,11 +5,11 @@ import styles from '../styles.module.css';
 
 # Tutorial - Getting started
 
-Let's discover **Blue Panda Plus less than 5 minutes**.
+<h2>Let's discover how to setup <b>Blue Panda Plus less than 5 minutes</b>.</h2>
 
 This documentation is valid for all designs available.
 
-## Getting Started
+### Getting Started
 Buy a license on **[blue-panda.dev](https://blue-panda.dev)**.
 
 ## Clone Panda Plus

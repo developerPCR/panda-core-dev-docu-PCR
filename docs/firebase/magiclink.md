@@ -4,7 +4,8 @@ sidebar_position: 5
 
 # Magic links 
 
-Magic lins 🪄 are links that can be shared with other people. for instance, if you are collaborating with others in a Kanban board, to invite others
+<h2>Magic lins 🪄 are links that can be shared with other people. </h2>
+for instance, if you are collaborating with others in a Kanban board, to invite others
 you will need am static link, this can be made very easily with NextJS in our base.
 
 :::tip

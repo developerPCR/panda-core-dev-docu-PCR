@@ -4,7 +4,7 @@ sidebar_position: 15
 
 # Current Roadmap 
 
-We would like to bring a lot more posibilities to our users, so we are constantly creating new integrations and templates.
+<h2>We would like to bring a lot more posibilities to our users</h2>, so we are constantly creating new integrations and templates.
 
 :::info
 

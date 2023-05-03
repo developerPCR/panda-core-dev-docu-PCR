@@ -4,9 +4,10 @@ sidebar_position: 10
 
 # Responsive 
 
-We use out of the box tailwind classes to handle responsiveness 📱🖥️, but some times is also needed programatically, so we created a hook for this purpose, quite easy to use.
+<h2>We use out of the box tailwind classes to handle responsiveness 📱🖥️</h2>
+But some times is also needed programatically, so we created a hook for this purpose, quite easy to use.
 
-Possible values: xs, sm, md, lg, xl, 2xl
+Possible values: <b>xs, sm, md, lg, xl, 2xl</b>
 
 ```tsx
   const { breakpoint } = useBreakpoint()

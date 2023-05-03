@@ -4,7 +4,7 @@ sidebar_position: 4
 
 # Live data 
 
-Working with live data is quite simple on this project, we are listening firebase documents.
+<h2>Working with live data is quite simple on this project, we are listening firebase documents.</h2>
 
 Example of using live data:
 
