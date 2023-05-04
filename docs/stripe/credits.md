@@ -12,11 +12,11 @@ import styles from '../../styles.module.css';
 
  Now we need to add a new google function to interact with the vault data (this is improtant otherwise would be unsafe), go to https://console.cloud.google.com/ and choose your firebase project then choose Cloud Functions.
 
-<img src={'/instructions/stripe/27.png'} style={{width: '70%%'}} />
+<img src={'/instructions/stripe/27.png'} alt="Stripe" style={{width: '70%%'}} />
 
 ### Create a new one and fill this information.
 
-<img src={'/instructions/stripe/46.png'} style={{width: '70%%'}} />
+<img src={'/instructions/stripe/46.png'} alt="Stripe" style={{width: '70%%'}} />
 
 ### Take the project specific information from firebase console > project settings.
 
@@ -34,7 +34,7 @@ import styles from '../../styles.module.css';
     </code>
 </div>
 
-<img src={'/instructions/stripe/47.png'} style={{width: '70%%'}} />
+<img src={'/instructions/stripe/47.png'} alt="Stripe" style={{width: '70%%'}} />
 
 ### Now go to 
  https://github.com/bluepanda-dev/panda-core-dev-gcp-functions and download **credits_spendingsv20.zip**, upload this to the google cloud function, select an storage and press deploy. (should take some minutes)
@@ -44,7 +44,7 @@ Now we are uploading the code base that will handle the events after a user inte
 That means, if the user buy credits or spend them.
 :::
 
-<img src={'/instructions/stripe/49.png'} style={{width: '70%%'}} />
+<img src={'/instructions/stripe/49.png'} alt="Stripe" alt="Stripe credits collection" style={{width: '70%%'}} />
 
 :::caution
 In order to see credits products remember to add a type in your product on stripe, the type by default is 'credits'
@@ -67,8 +67,8 @@ This is important , since we need an items that the user can buy with credits, y
 as always this is an starter point for your SaaS.
 :::
 
-<img src={'/instructions/stripe/credits_collection_1.png'} style={{width: '70%%'}} />
-<img src={'/instructions/stripe/credits_collection_2.png'} style={{width: '70%%'}} />
+<img src={'/instructions/stripe/credits_collection_1.png'} alt="Stripe credits collection" style={{width: '70%%'}} />
+<img src={'/instructions/stripe/credits_collection_2.png'} alt="Stripe credits collection" style={{width: '70%%'}} />
 
 
 

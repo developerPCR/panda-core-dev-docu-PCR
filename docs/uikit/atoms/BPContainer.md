@@ -40,6 +40,6 @@ import BPContainer from '@components/atoms/BPContainer'
 
 
 Check more colors, statuses and styles at: 
-<img src={'/img/sb.png'} style={{width: '15px'}} />
+<img src={'/img/sb.png'} alt="Storybook" style={{width: '15px'}} />
 
 https://ui-kit.blue-panda.dev/?path=/story/atoms-bpcontainer--basic

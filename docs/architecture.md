@@ -53,4 +53,4 @@ We are under construction for the following technologies:
 
 <div style={{marginBottom: '1rem'}}></div>
 
-<img src={'/ss/arquitecture.png'} style={{width: '100%'}} />
+<img src={'/ss/arquitecture.png'} alt="arquitecture" style={{width: '100%'}} />

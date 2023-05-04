@@ -15,4 +15,4 @@ and in the future you want to either have a CMS integrated or Stripe, would be q
 Before we even show this into public, we are creating at least 4 micro saas to validate our template and improve thins along the road.
 
 
-<img src={'/ss/roadmap.png'} style={{width: '100%'}} />
+<img src={'/ss/roadmap.png'} alt="Roadmap" style={{width: '100%'}} />

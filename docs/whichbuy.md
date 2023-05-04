@@ -40,7 +40,7 @@ Base Templates
     <summary>
     <div style={{display: 'flex', justifyContent: 'space-between'}}>
     <div> 🚀 Panda Plus</div>
-    <div style={{marginLeft: 'auto'}}><img src={'/img/plus.png'} style={{width: '20px'}} /></div>
+    <div style={{marginLeft: 'auto'}}><img src={'/img/plus.png'} alt="Panda plus" style={{width: '20px'}} /></div>
     </div>
     </summary>
     <p>(Core Included) This is a landing page, which includes i18n, multiple sections such as Hero, Plans, Products, Features, Why Us, My Numbers, Reviews, Timeline, Customers, Code Example, Subscribe US, Tech Stack, FAQs and Cookies Popup and more components.</p>
@@ -49,11 +49,11 @@ Base Templates
 <summary>
     <div style={{display: 'flex', justifyContent: 'space-between'}}>
     <div> 🔥 Panda Firebase</div>
-    <div style={{marginLeft: 'auto'}}><img src={'/img/firebase.png'} style={{width: '15px', marginRight: '5px'}} /></div>
+    <div style={{marginLeft: 'auto'}}><img src={'/img/firebase.png'} alt="Firebase" style={{width: '15px', marginRight: '5px'}} /></div>
     </div>
     </summary>
     <p>(<span className={styles.yellow}>Plus Included</span>) This is all about users features, so you can forget about repetitive features such us Login(email/pass, gmail, github, fb, twitter, etc), Logout, Register, Forgot Password, My Account, Public Profile, Notifications, Avatar (taken from provider), Upload new Avatar, My Storage Page (example to handle assets, upload, download, etc), Hideouts (Example of collaboration page, with live data and share link), Restricted areas and more.</p>
-    <a href="https://firebase.blue-panda.dev/">
+    <a href="https://firebase.blue-panda.dev/" title="Blue panda firebase website" target="_blank">
         See demo
     </a>
 </details>
@@ -61,11 +61,11 @@ Base Templates
 <summary>
     <div style={{display: 'flex', justifyContent: 'space-between'}}>
         <div> 🏦 Panda Stripe</div>
-        <div style={{marginLeft: 'auto'}}><img src={'/img/stripe.png'} style={{width: '35px', marginRight: '5px'}} /></div>
+        <div style={{marginLeft: 'auto'}}><img src={'/img/stripe.png'} alt="stripe" style={{width: '35px', marginRight: '5px'}} /></div>
     </div>
 </summary>
     <p>(<span className={styles.orange}>Firebase Included</span>) This is all about payments you will have nice features such as One time payments (Products), Plans (Including Trials), Credits (Spend and Buy), Billing (Including Invoices), Restricted areas just for premium users, My Orders Page , Unlocked Content after buying a Product and more.</p>
-    <a href="https://stripe.blue-panda.dev/">
+    <a href="https://stripe.blue-panda.dev/" title="Blue panda stripe website" target="_blank">
         See demo
     </a>
 </details>
@@ -73,7 +73,7 @@ Base Templates
 <summary>
     <div style={{display: 'flex', justifyContent: 'space-between'}}>
     <div> ⚙️ Panda CMS</div>
-    <div style={{marginLeft: 'auto'}}><img src={'/img/cms.png'} style={{width: '15px', marginRight: '5px'}} /></div>
+    <div style={{marginLeft: 'auto'}}><img src={'/img/cms.png'} alt="CMS" style={{width: '15px', marginRight: '5px'}} /></div>
     </div>
     </summary>
     <p>Soon</p>

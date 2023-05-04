@@ -9,7 +9,7 @@ import styles from '../../styles.module.css';
 <h2>Please follow the next steps</h2>
 
 :::caution
-You need first to read <a href="/docs/category/-tutorial---plus" >Panda Firebase Documentation</a> and make the whole setup.
+You need first to read <a href="/docs/category/-tutorial---plus" title="Docs panda plus" >Panda Firebase Documentation</a> and make the whole setup.
 
 After going though the firebase doc this, update the rules with the new documents we will need for stripe project:
 :::
@@ -113,54 +113,54 @@ If you dont need plans, products or credits, just remove the organisms or the re
     <div className={styles.circle}></div> We got to firebase console, then extensions > explore extensions.
 </div>
 
-<img src={'/instructions/stripe/4.png'} style={{width: '70%%'}} />
+<img src={'/instructions/stripe/4.png'} alt="Stripe" style={{width: '70%%'}} />
 <div>
     <div className={styles.circle}></div> Search for stripe, then select "Run payments with Stripe"
 </div>
 
-<img src={'/instructions/stripe/5.png'} style={{width: '70%%'}} />
+<img src={'/instructions/stripe/5.png'} alt="Stripe" style={{width: '70%%'}} />
 
 <div>
     <div className={styles.circle}></div> If you get a message like this, upgrade to Blaze  (dont worry, they dont charge if you dont use it) 
 </div>
 
-<img src={'/instructions/stripe/6.png'} style={{width: '70%%'}} />
+<img src={'/instructions/stripe/6.png'} alt="Stripe" style={{width: '70%%'}} />
 
 <div>
     <div className={styles.circle}></div>  Enable all 3. 
 </div>
 
-<img src={'/instructions/stripe/7.png'} style={{width: '70%%'}} />
+<img src={'/instructions/stripe/7.png'} alt="Stripe" style={{width: '70%%'}} />
 
 <div>
     <div className={styles.circle}></div>  You should see those 3 like this. 
 </div>
 
-<img src={'/instructions/stripe/8.png'} style={{width: '70%%'}} />
+<img src={'/instructions/stripe/8.png'} alt="Stripe" style={{width: '70%%'}} />
 
 <div>
     <div className={styles.circle}></div> Now choose these names so the app gets configured properly. 
 </div>
 
-<img src={'/instructions/stripe/9.png'} style={{width: '70%%'}} />
+<img src={'/instructions/stripe/9.png'} alt="Stripe" style={{width: '70%%'}} />
 
 <div>
     <div className={styles.circle}></div> Now you need to setup an API Key on Stripe  https://dashboard.stripe.com/apikeys , choose all these permissions.
 </div>
 
-<img src={'/instructions/stripe/10.png'} style={{width: '70%%'}} />
+<img src={'/instructions/stripe/10.png'} alt="Stripe" style={{width: '70%%'}} />
 
-<img src={'/instructions/stripe/11.png'} style={{width: '70%%'}} />
+<img src={'/instructions/stripe/11.png'} alt="Stripe" style={{width: '70%%'}} />
 
-<img src={'/instructions/stripe/12.png'} style={{width: '70%%'}} />
+<img src={'/instructions/stripe/12.png'} alt="Stripe" style={{width: '70%%'}} />
 
-<img src={'/instructions/stripe/13.png'} style={{width: '70%%'}} />
+<img src={'/instructions/stripe/13.png'} alt="Stripe" style={{width: '70%%'}} />
 
 <div>
     <div className={styles.circle}></div>  Now go back to firebase stripe extension configuration and add the Stripe API key like this. 
 </div>
 
-<img src={'/instructions/stripe/14.png'} style={{width: '70%%'}} />
+<img src={'/instructions/stripe/14.png'} alt="Stripe" style={{width: '70%%'}} />
 
 <div>
     <div className={styles.circle}></div> Now just continue and complete the information required.
@@ -171,7 +171,7 @@ Webhooks are forms of connecting different platforms, here we will need to creat
  See the next step to configure the webhook. (You can just follow also the information about this on the extension itself)
 :::
 
-<img src={'/instructions/stripe/16.png'} style={{width: '70%%'}} />
+<img src={'/instructions/stripe/16.png'} alt="Stripe" style={{width: '70%%'}} />
 
 <div>
     <div className={styles.circle}></div> Just read the instructions provided and create the webhook on https://dashboard.stripe.com/webhooks. 
@@ -182,28 +182,28 @@ On Stripe press "Add Endpoint" and provide the url Firebase extension provides.
 
 :::
 
-<img src={'/instructions/stripe/20.png'} style={{width: '70%%'}} />
+<img src={'/instructions/stripe/20.png'} alt="Stripe" style={{width: '70%%'}} />
 
-<img src={'/instructions/stripe/15.png'} style={{width: '70%%'}} />
+<img src={'/instructions/stripe/15.png'} alt="Stripe" style={{width: '70%%'}} />
 
 <div>
     <div className={styles.circle}></div> After you create the webhook, go to Stripe and open the webhook, you will se a link which says "Reveal" under Signing secret,
     this is something Firebase extension will need to connect.
 </div>
 
-<img src={'/instructions/stripe/21.png'} style={{width: '70%%'}} />
+<img src={'/instructions/stripe/21.png'} alt="Stripe" style={{width: '70%%'}} />
 
 <div>
     <div className={styles.circle}></div> After this, you are all set to install the extension. 
 </div>
 
-<img src={'/instructions/stripe/17.png'} style={{width: '70%%'}} />
+<img src={'/instructions/stripe/17.png'} alt="Stripe" style={{width: '70%%'}} />
 
 <div>
     <div className={styles.circle}></div> Description of the step 
 </div>
 
-<img src={'/instructions/stripe/23.png'} style={{width: '70%%'}} />
+<img src={'/instructions/stripe/23.png'} alt="Stripe" style={{width: '70%%'}} />
 
 <div>
     <div className={styles.circle}></div> Now update or create a product and check if the webhook is working as expected, yo will see the products also on Firebase > Firestore database > fe-products. 
@@ -216,13 +216,13 @@ If something is not working fine, pls read carefully the extension steps to get 
 ### 2.2. We have multiple options to use this template, from here you can setup the option you need in your saas.
 
 <div style={{fontSize:'25px'}}>
-<a href="/docs/stripe/products" >I want to use Products</a>
+<a href="/docs/stripe/products" title="Blue panda stripe products" target="_blanck">I want to use Products</a>
 </div>
 <div style={{fontSize:'25px'}}>
-<a href="/docs/stripe/plans" >I want to use Plans</a>
+<a href="/docs/stripe/plans" title="Blue panda stripe plans" target="_blanck">I want to use Plans</a>
 </div>
 <div style={{fontSize:'25px'}}>
-<a href="/docs/stripe/credits" >I want to use Credits</a>
+<a href="/docs/stripe/credits" title="Blue panda stripe credits" target="_blanck">I want to use Credits</a>
 </div>
 
 <head>

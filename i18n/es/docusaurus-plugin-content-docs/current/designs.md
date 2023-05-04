@@ -19,7 +19,7 @@ They are full compatible with all the base templates we will have:
 :::
 
 
-<img src={'/ss/designs.png'} style={{width: '100%'}} />
+<img src={'/ss/designs.png'} alt="Designs" style={{width: '100%'}} />
 
 
 ### You can see a live examples from here
@@ -40,5 +40,5 @@ They are full compatible with all the base templates we will have:
 
 ### Branch architecture
 
-<img src={'/ss/branch.png'} style={{width: '100%'}} />
+<img src={'/ss/branch.png'} alt="Branch" style={{width: '100%'}} />
 

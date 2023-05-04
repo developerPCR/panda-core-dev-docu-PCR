@@ -119,13 +119,13 @@ We recommend to use `custom.css` to extend css classes in case you cannot find a
 Use your logo and generates the icons needed for the project.
 
 <div>
-  <a href="https://favicon.io/favicon-converter/">FOR ANDROID APPLE ICONS</a> 
+  <a href="https://favicon.io/favicon-converter/" title="apple-android favicon">FOR ANDROID APPLE ICONS</a> 
 </div>
 
 Unzip the content and then paste and replace it on `your-template/public`
 
 <div>
-  <a href="https://tools.crawlink.com/tools/pwa-icon-generator/">FOR PWA ICONS</a> 
+  <a href="https://tools.crawlink.com/tools/pwa-icon-generator/" title="PWA icon generator">FOR PWA ICONS</a> 
 </div>
 
 Unzip the content and then paste and replace it on `your-template/public/icons`

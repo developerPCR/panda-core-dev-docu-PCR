@@ -29,7 +29,7 @@ They are full compatible with all the base templates we will have:
 
 <div style={{marginBottom: '1rem'}}></div>
 
-<img src={'/ss/designs.png'} style={{width: '100%'}} />
+<img src={'/ss/designs.png'} alt="designs" style={{width: '100%'}} />
 
 :::info
 All designs are based (forked) from the same code-base, so you will have the same architecture, UI Components, and Core for all of them.
@@ -55,5 +55,5 @@ We just change some UI elements and sections to have different choices for you a
 
 ### Branch architecture
 
-<img src={'/ss/branch.png'} style={{width: '100%'}} />
+<img src={'/ss/branch.png'} alt="Branch" style={{width: '100%'}} />
 

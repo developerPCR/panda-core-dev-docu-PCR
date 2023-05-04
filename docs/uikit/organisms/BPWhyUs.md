@@ -22,6 +22,6 @@ import BPWhyUs from '@components/organisms/BPWhyUs'
 
 
 Check more colors, statuses and styles at: 
-<img src={'/img/sb.png'} style={{width: '15px'}} />
+<img src={'/img/sb.png'} alt="Storybook" style={{width: '15px'}} />
 
 https://ui-kit.blue-panda.dev/?path=/story/organisms-bpwhyus--basic

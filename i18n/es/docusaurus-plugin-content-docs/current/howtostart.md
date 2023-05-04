@@ -25,7 +25,7 @@ described below.
   If you have the Panda Plus template, this includes Panda Core (Free) and you have a landing page with multiple features, such as dark/light mode, i18n, sections and more. 
   </p>
   <p>
-  Go to <a href="/docs/category/-tutorial---plus" >Panda Plus Doc</a> where you can find details about the template.
+  Go to <a href="/docs/category/-tutorial---plus" title="Docs Blue panda plus">Panda Plus Doc</a> where you can find details about the template.
   </p>
   </TabItem>
   <TabItem value="firebase" label=" Firebase (users)" attributes={{className: styles.orange}} >
@@ -34,7 +34,7 @@ described below.
   Login, Logout, Forgot Password, Register, Restricted areas, Upload files and much more.
   </p>
   <p>
-  Go to <a href="/docs/category/-tutorial---firebase" >Panda Plus Firebase</a> where you can find details about the template.
+  Go to <a href="/docs/category/-tutorial---firebase" title="Docs Blue panda firebase">Panda Plus Firebase</a> where you can find details about the template.
   </p>
   </TabItem>
   <TabItem value="stripe" label=" Stripe (payments)" attributes={{className: styles.red}}>
@@ -43,7 +43,7 @@ described below.
   Subscriptions Plans, Credits (Spend and Buy Credits), One Payment Products, Billing area (invoices and orders) and more.
   </p>
   <p>
-  Go to <a href="/docs/category/-tutorial---stripe" >Panda Plus Stripe</a> where you can find details about the template.
+  Go to <a href="/docs/category/-tutorial---stripe" title="Docs Blue panda stripe">Panda Plus Stripe</a> where you can find details about the template.
   </p>
   </TabItem>
   <TabItem value="cms" label=" CMS (soon)">

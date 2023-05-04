@@ -20,21 +20,21 @@ function HomepageHeader() {
             <div className="content-homeCard">
               <a className="homeCard fancy-hover" href="/docs/intro">
                 <div>
-                  <img className="homeCard-img" src="/img/core.webp" />
+                  <img className="homeCard-img" src="/img/core.webp" alt="Home card"/>
                 </div>
                 <h2 className="homeCard-title">Panda Intro - 5m ⏱️</h2>
                 <p>Lets begin your environment</p>
               </a>
               <a className="homeCard fancy-hover" href="/docs/category/--ui-kit---components">
                 <div>
-                  <img className="homeCard-img" src="/img/uikit.webp" />
+                  <img className="homeCard-img" src="/img/uikit.webp" alt="Home card"/>
                 </div>
                 <h2 className="homeCard-title">Panda UI Kit - 15m ⏱️</h2>
                 <p>Improve your designs with awesome components.</p>
               </a>
               <a className="homeCard fancy-hover" href="/docs/category/-tutorial---plus">
                 <div>
-                  <img className="homeCard-img" src="/img/plus.webp" />
+                  <img className="homeCard-img" src="/img/plus.webp" alt="Panda plus"/>
                 </div>
                 <h2 className="homeCard-title">Panda Plus - 10m ⏱️</h2>
                 <p>Build your SaaS with all core features</p>
@@ -45,6 +45,7 @@ function HomepageHeader() {
                     className="homeCard-img"
                     style={{ width: "72px" }}
                     src="/img/firebase.png"
+                    alt="Firebase"
                   />
                 </div>
                 <h2 className="homeCard-title">Panda Firebase - 20m ⏱️</h2>
@@ -52,20 +53,20 @@ function HomepageHeader() {
               </a>
               <a className="homeCard fancy-hover" href="/docs/category/-tutorial---stripe"> 
                 <div>
-                  <img className="homeCard-img" src="/img/stripe.png" />
+                  <img className="homeCard-img" src="/img/stripe.png" alt="Stripe"/>
                 </div>
                 <h2 className="homeCard-title">Panda Stripe - 30m ⏱️</h2>
                 <p>Build your SaaS with Firebase and Stripe</p>
               </a>
               <a className="homeCard fancy-hover" href="/docs/category/-tutorial---lemonsqueezy">
                 <div>
-                  <img  src="/img/lemonsqueezy-logo.png" />
+                  <img  src="/img/lemonsqueezy-logo.png" alt="Lemon squeezy"/>
                 </div>
                 Soon...
               </a>
               <a className="homeCard fancy-hover">
                 <div>
-                  <img className="homeCard-img" src="/img/cms.png" />
+                  <img className="homeCard-img" src="/img/cms.png" alt="CMS"/>
                 </div>
                 <h2 className="homeCard-title">Panda CMS</h2>
                   Soon...
@@ -80,32 +81,32 @@ function HomepageHeader() {
             <div>
               <div>
                 {" "}
-                <a href="https://blue-panda.dev/">
-                  <img src="/img/logo.webp" style={{ width: "30px" }} />{" "}
+                <a href="https://blue-panda.dev/" title="Blue panda website" target="_blank">
+                  <img src="/img/logo.webp" alt="Blue panda logo" style={{ width: "30px" }}/>{" "}
                 </a>
               </div>
               <div>
                 {" "}
-                <a href="https://twitter.com/bluepanda_dev">
-                  <img src="/img/twitter.svg" style={{ width: "30px" }} />{" "}
+                <a href="https://twitter.com/bluepanda_dev" title="Blue panda twitter" target="_blank">
+                  <img src="/img/twitter.svg" alt="Twitter" style={{ width: "30px" }} />{" "}
                 </a>
               </div>
               <div>
                 {" "}
-                <a href="https://discord.com/invite/XX3tpJxptC">
-                  <img src="/img/discord.svg" style={{ width: "30px" }} />{" "}
+                <a href="https://discord.com/invite/XX3tpJxptC" title="Blue panda discord" target="_blank">
+                  <img src="/img/discord.svg" alt="discord" style={{ width: "30px" }} />{" "}
                 </a>
               </div>
             </div>
             <div>
               <div>
-                <a href="javascript:void(0)">Partnership</a>{" "}
+                <a href="javascript:void(0)" title="Patnership">Partnership</a>{" "}
               </div>
               <div>
-                <a href="javascript:void(0)">Licence</a>
+                <a href="javascript:void(0)" title="License">Licence</a>
               </div>
               <div>
-                <a href="javascript:void(0)">Contact</a>
+                <a href="javascript:void(0)" title="Contact">Contact</a>
               </div>
             </div>
           </div>

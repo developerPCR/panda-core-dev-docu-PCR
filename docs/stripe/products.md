@@ -14,7 +14,7 @@ import styles from '../../styles.module.css';
     <div className={styles.circle}></div> Go to stripe and add a product. 
 </div>
 
-<img src={'/instructions/stripe/2.png'} style={{width: '70%%'}} />
+<img src={'/instructions/stripe/2.png'} alt="Stripe" style={{width: '70%%'}} />
 
 <div>
     <div className={styles.circle}></div> You can add all details you want, go to metadata and add a type, details, features (1 line per feature).
@@ -27,7 +27,7 @@ You can use the hook `usePayment`, method singlePayment and pass the price to th
 :::
 
 
-<img src={'/instructions/stripe/metadata.png'} style={{width: '70%%'}} />
+<img src={'/instructions/stripe/metadata.png'} alt="Stripe metadata"style={{width: '70%%'}} />
 
 <div>
     <div className={styles.circle}></div> We need to modify this file so you connect the stripe product to the application so now we are lsitening the right products.
@@ -44,7 +44,7 @@ This is neccesary since some times you have other products for other websites, s
     <div className={styles.circle}></div> You should now be able to buy and see the product you bought under orders menu. 
 </div>
 
-<img src={'/instructions/stripe/54.png'} style={{width: '70%%'}} />
+<img src={'/instructions/stripe/54.png'} alt="Stripe" style={{width: '70%%'}} />
 
 
 ### (Optional) Unlock product data after buying 
@@ -58,7 +58,7 @@ In case you want to share a link, secret or something after your product is purc
     <div className={styles.circle}></div> Go to firebase firestore and add a collection. 
 </div>
 
-<img src={'/instructions/stripe/25.png'} style={{width: '70%%'}} />
+<img src={'/instructions/stripe/25.png'} alt="Stripe" style={{width: '70%%'}} />
 
 <div>
     <div className={styles.circle}></div> Now is quite easy, just add the product key (from stripe) and add either 'raw' or 'download' field. 
@@ -68,7 +68,7 @@ In case you want to share a link, secret or something after your product is purc
 Like always, this is just an example of relkeasing some secrete or link after bying some product, from here you can change anything and build your own solution. you have a good base with these 2 examples. 
 :::
 
-<img src={'/instructions/stripe/26.png'} style={{width: '70%%'}} />
+<img src={'/instructions/stripe/26.png'} alt="Stripe" style={{width: '70%%'}} />
 
 <div>
     <div className={styles.circle}></div> Now we need to add a new google function to interact with the vault data (this is improtant otherwise would be unsafe), go to https://console.cloud.google.com/ and choose your firebase project then choose Cloud Functions.
@@ -80,7 +80,7 @@ Like always, this is just an example of relkeasing some secrete or link after by
     <div className={styles.circle}></div> Create a new one and fill this information.
 </div>
 
-<img src={'/instructions/stripe/51.png'} style={{width: '70%%'}} />
+<img src={'/instructions/stripe/51.png'} alt="Stripe" style={{width: '70%%'}} />
 
 <div>
     <div className={styles.circle}></div> Take the project specific information from firebase console > project settings. 
@@ -98,7 +98,7 @@ Like always, this is just an example of relkeasing some secrete or link after by
     </code>
 </div>
 
-<img src={'/instructions/stripe/52.png'} style={{width: '70%%'}} />
+<img src={'/instructions/stripe/52.png'} alt="Stripe" style={{width: '70%%'}} />
 
 <div className={styles.circle}></div> Now go to https://github.com/bluepanda-dev/panda-core-dev-gcp-functions and download products_spendingsv5.zip, upload this to the google cloud function , select an storage and press deploy. (should take some minutes)
 
@@ -107,7 +107,7 @@ Now we are uploading the code base that will handle the events after a user purc
 This will be reading and adding the unlock info coming from fe-vault to the specific order, with a high security layer, since is handle on google cloud functions side.
 :::
 
-<img src={'/instructions/stripe/53.png'} style={{width: '70%%'}} />
+<img src={'/instructions/stripe/53.png'} alt="Stripe" style={{width: '70%%'}} />
 
 
 :::tip

@@ -23,7 +23,7 @@ sidebar_position: 14
 You will see a loading layout with your logo and loading css animation.
 
 
-<img src={'/ss/loading.png'} style={{width: 400}} />
+<img src={'/ss/loading.png'} alt="Loading" style={{width: 400}} />
 
 
 :::tip

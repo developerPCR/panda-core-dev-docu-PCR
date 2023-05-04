@@ -41,5 +41,5 @@ Example:
 ![alt text](/ss/ex.png)
 
 <button className={styles.button}>
-        <a className={styles.buttonLink} target="_blank" href="https://discord.gg/fNPNeZsjsU"><span>Join us discord</span></a>
+        <a className={styles.buttonLink} title="join to discord" target="_blank" href="https://discord.gg/fNPNeZsjsU"><span>Join us discord</span></a>
 </button>

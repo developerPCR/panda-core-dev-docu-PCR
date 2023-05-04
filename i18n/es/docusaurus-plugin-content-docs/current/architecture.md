@@ -25,4 +25,4 @@ We are under construction for the following technologies:
 - Lemon Squeezy Integration (still investigating)
 
 
-<img src={'/ss/arquitecture.png'} style={{width: '100%'}} />
+<img src={'/ss/arquitecture.png'} alt="Arquitecture" style={{width: '100%'}} />
