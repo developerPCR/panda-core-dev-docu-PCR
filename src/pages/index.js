@@ -121,9 +121,15 @@ export default function Home() {
   return (
     <Layout>
       <Head>
-        <meta property="og:title" content="Blue Panda | Use, develop, ship"/>
+        <meta property="og:title" content="Docs Blue panda knows how its works"/>
         <meta property="og:image" content="https://plus.blue-panda.dev/_next/image?url=%2Ffeatures%2Frainbow.webp&w=256&q=75"/>
         <meta property="og:description" content="Put yourself weeks ahead with our Panda templates, save months of work."/>
+        <meta name="twitter:site" content="@bluepanda_dev"/>
+        <meta name="twitter:description" content="Checks news and more here"/>
+        <meta name="twitter:title" content="Blue panda Twitter news"/>
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="og:site_name" content="Docs Blue panda" />
+        <meta key="og:type" name="og:type" content="website" />
       </Head>
       <HomepageHeader />
     </Layout>
